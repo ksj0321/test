@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<htmL>
+ <head>
+  <title> Ȩ </title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="Jang, Insu">
+ <meta name="Keywords" content="">
+ <meta name="Description" content="">
+ 
+<style type="text/css">
+body
+{scrollbar-face-color: #FFFFFF;
+ scrollbar-highlight-color: #DBDBDB;
+ scrollbar-3dlight-color: #FFFFFF;
+ scrollbar-shadow-color: #9C92FF;
+ scrollbar-darkshadow-color: #FFFFFF;
+ scrollbar-track-color: #FFFFFF;
+ scrollbar-arrow-color: #9C92FF}
+</style>
+
+ </head>
+
+
+<form name="main">
+
+ <body bgcolor="#F3F3F3" topmargin="0" leftmargin="0">
+
+ 	<script language="javascript">
+	<!--
+		//---------------------------------------------------------------
+		// �ּ��� �Ķ���͸� �м��ؼ� ��Ų�� ��� �׸��� �ٲٵ�����
+		//---------------------------------------------------------------
+		if (location.search)
+		{
+			// aa.html?name=value
+			param_name = location.search.split("?")[1]
+			param_value = param_name.split("=")[1]  // value
+ 			param_name = param_name.split("=")[0]   // name
+			//document.write(param_name+'<br/>')
+			//document.write(param_value)
+		}		
+		//---------------------------------------------------------------
+		function menu_click_pagereload(htmlfile)
+		{
+			location.replace('./' + htmlfile + location.search)
+		}
+	//-->
+	</script>
+	
+	<!-- �̴� Ȩ������ �ܰ� ���̺� -->
+	<table border="0" align="left" valign="top" width="850" height="550" bgcolor="#003366" cellspacing="0" cellpadding="0">
+		<tr>
+			
+				<script language="javascript">
+				<!--
+					//---------------------------------------------------------------
+					// �ּ��� �Ķ���͸� �м��ؼ� ��Ų�� ��� �׸��� �ٲٵ�����
+					//---------------------------------------------------------------
+					if (location.search)
+					{
+						// aa.html?name=value
+						var param_name = location.search.split("?")[1]
+						var param_value = param_name.split("=")[1]  // value
+						var param_name = param_name.split("=")[0]   // name
+						//document.write(param_name+'<br/>')
+						//document.write(param_value)
+					}		
+					//---------------------------------------------------------------
+					// �⺻ ���
+					
+					
+					// �Ķ���� �м��Ͽ� �׸� ����
+					if (param_name == "skin")
+					{
+						if (param_value == "2") 
+							document.write('<td background="./images/bg_kim2.jpg">')	
+						else if (param_value == "3") 
+							document.write('<td background="./images/bg_kim3.jpg">')
+						else if (param_value == "4") 
+							document.write('<td background="./images/bg_kim4.jpg">')
+						else 
+							document.write('<td background="./images/bg_kim1.jpg">')
+					}
+					else
+					{
+						document.write('<td background="./images/bg_kim1.jpg">')
+					}
+				//-->
+				</script>
+
+
+				<!-- ���� ���̺�, ���� ������ -->
+				
+				<!-- �ð� ��� ---------------------------------- -->
+				<script language="javascript">
+				</script>
+
+				<table border="0" align="left" width="800" height="510" background="./images/bg_big.gif">
+					<tr>
+						<td colspan="2" align="center">
+							<br>
+							<font face="����"><span style="font-size:8pt;">today 9999  total 9999</span></font>
+						</td>
+						<td  height="40">
+							<br>
+							<font face="����"><span style="font-size:13pt;font-weight:bold"><center><font color="#4B9687">�μ��� �̴� Ȩ������</font></center></span></font>
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td width="10"> </td>
+
+						<td width="178" height="450" background="./images/bg_left_rect.jpg">
+
+							<!-- ���� ���� �κ� ----------------------------------------------------------- -->
+							<center>
+								<iframe frameborder="0" width="160" height="440" src="./left_intro.html"></iframe> 
+							</center>
+							<!-- ---------------------------------------------------------------------------- -->
+
+						</td>
+						<td width="480" height="450" background="./images/bg_center_rect.jpg">
+							<center>
+							<!-- ������ ���� �κ� ----------------------------------------------------------- -->
+							<iframe frameborder="0" width="470" height="430" src="./pics/r_pic_page2.html"></iframe> 
+							<!-- ---------------------------------------------------------------------------- -->
+							</center>
+						</td>
+						<!-- ������ �޴� �κ� ----------------------------------------------------------- -->
+						<td>
+							<img src="images/m1.gif" width="83" height="29" border="0" alt="Ȩ �޴�" onclick="menu_click_pagereload('./m1.html')"><br/><br/>
+							<img src="images/m2.gif" width="83" height="29" border="0" alt="������ �޴�" onclick="menu_click_pagereload('./m2.html')"><br/><br/>
+							<img src="images/m3.gif" width="83" height="29" border="0" alt="����ø �޴�" onclick="menu_click_pagereload('./m3.html')"><br/><br/>
+							<img src="images/m4.gif" width="83" height="29" border="0" alt="����� �޴�" onclick="menu_click_pagereload('./m4.html')"><br/><br/>
+							<br/><br/><br/><br/><br/><br/><br/><br/>
+						</td>
+						<!-- ������ �޴� �κ� ----------------------------------------------------------- -->
+					</tr>
+
+					<tr>
+						<td ></td>
+					</tr>
+				</table>
+				<!-- ------------------------ -->
+			</td>
+		</tr>
+	</table>
+	<!-- ------------------------ -->
+
+
+
+ </body>
+
+ </form>
+
+</html>
